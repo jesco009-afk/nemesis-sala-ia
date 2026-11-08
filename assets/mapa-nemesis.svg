@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="790" viewBox="0 0 1440 790" role="img" aria-labelledby="title desc">
+<title id="title">NÉMESIS · mapa de componentes y recorridos</title>
+<desc id="desc">Dos recorridos diferenciados. Conversación: Sala con uno o dos modelos y un antecedente elegido por proyecto. Ejemplo numérico SUMAR: Sala, Orquestador, ORÁCULO y motor, memoria numérica. Alcances documentados, no aceptación universal.</desc>
+<defs>
+ <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0l7 4-7 4" fill="none" stroke="#75b5d4" stroke-width="1.5"/></marker>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0e2539"/><stop offset="1" stop-color="#091624"/></linearGradient>
+</defs>
+<rect width="1440" height="790" rx="24" fill="url(#bg)"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+ <text x="48" y="65" fill="#f2f6fb" font-size="36" font-weight="700">Un proyecto. Cuatro componentes.</text>
+ <text x="48" y="101" fill="#adc4d6" font-size="19">Conversación y cálculo tienen recorridos distintos · avances documentados al 8 nov 2026</text>
+ <rect x="48" y="140" width="1344" height="239" rx="18" fill="#0c2031" stroke="#2b5366"/>
+ <circle cx="73" cy="171" r="5" fill="#7dd7b8"/>
+ <text x="91" y="178" fill="#a9e8cf" font-size="17" font-weight="700" letter-spacing=".5">01 / CONVERSACIÓN · PRIMERA ENTREGA</text>
+ <g fill="#142f44" stroke="#355a73"><rect x="73" y="205" width="370" height="102" rx="14"/><rect x="535" y="205" width="370" height="102" rx="14"/><rect x="997" y="205" width="370" height="102" rx="14"/></g>
+ <g fill="#f2f7fc" font-size="25" font-weight="650"><text x="97" y="246">Memoria de proyecto</text><text x="559" y="246">Sala IA</text><text x="1021" y="246">Uno o dos modelos</text></g>
+ <g fill="#b4c9da" font-size="17"><text x="97" y="280">Un antecedente que tú eliges</text><text x="559" y="280">Tu ventana de conversación</text><text x="1021" y="280">Individual o Gemma + Granite</text></g>
+ <path d="M460 256h56M922 256h56" fill="none" stroke="#75b5d4" stroke-width="2.5" marker-end="url(#arrow)"/>
+ <text x="73" y="345" fill="#b4c9da" font-size="18">Tú decides qué guardar; la Sala lo recupera para ese proyecto. Esta ruta no verifica el chat con ORÁCULO.</text>
+ <rect x="48" y="407" width="1344" height="249" rx="18" fill="#102335" stroke="#3e5265"/>
+ <circle cx="73" cy="440" r="5" fill="#f1c36c"/>
+ <text x="91" y="447" fill="#f1ce8a" font-size="17" font-weight="700" letter-spacing=".5">02 / EJEMPLO NUMÉRICO · SUMAR EN EL MVP</text>
+ <g fill="#193249" stroke="#3d5b73"><rect x="73" y="477" width="276" height="104" rx="14"/><rect x="412" y="477" width="276" height="104" rx="14"/><rect x="751" y="477" width="276" height="104" rx="14"/><rect x="1090" y="477" width="277" height="104" rx="14"/></g>
+ <g fill="#f2f7fc" font-size="23" font-weight="650"><text x="95" y="519">Sala IA</text><text x="434" y="519">Orquestador</text><text x="773" y="519">ORÁCULO + motor</text><text x="1112" y="519">Memoria numérica</text></g>
+ <g fill="#b4c9da" font-size="17"><text x="95" y="553">Entrada de la tarea</text><text x="434" y="553">Coordinar el recorrido</text><text x="773" y="553">Verificar y calcular</text><text x="1112" y="553">Autoguardar y recuperar</text></g>
+ <g fill="none" stroke="#75b5d4" stroke-width="2.5" marker-end="url(#arrow)"><path d="M362 529h35"/><path d="M701 529h35"/><path d="M1040 529h35"/></g>
+ <text x="73" y="622" fill="#b4c9da" font-size="18">Restar, multiplicar y dividir tienen muestras propias desde Sala; no se extiende esta ruta por equivalencia.</text>
+ <text x="48" y="710" fill="#dce9f1" font-size="19" font-weight="650">Avance real, con límites visibles.</text>
+ <text x="48" y="744" fill="#94aec2" font-size="17">Primera muestra de Sala IA y panorama de conexiones, cálculo y memorias, con sus límites.</text>
+</g>
+</svg>
