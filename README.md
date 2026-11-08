@@ -44,6 +44,12 @@ La aceptación estática y el cálculo tienen recibos distintos. Un caso real de
 
 [Ver qué verifica ORÁCULO y qué calcula el motor](docs/oraculo-y-motor-de-calculo.md).
 
+## Memorias conversacional y numérica
+
+En conversación tú eliges qué recordar y la Sala lo recupera para el proyecto. En el recorrido numérico probado se guarda el resultado aceptado y se recupera por identidad del caso. Recordar un resultado no sustituye calcularlo de nuevo.
+
+[Conocer las dos memorias, sus ejemplos y sus límites](docs/memorias-conversacional-y-numerica.md).
+
 ## Avances y pendientes
 
 | Área | Avance demostrado | Qué queda por desarrollar o comprobar |
