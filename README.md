@@ -2,7 +2,7 @@
 
 Un proyecto para conversar con modelos ejecutados en el PC y conectar tareas con recorridos de verificación, cálculo y memoria. **Pensado para usuarios de casa, construido paso a paso y todavía en desarrollo.**
 
-Esta primera muestra presenta **Sala IA** y resume el avance del resto de NÉMESIS. Es documentación de resultados y límites: no contiene el software operativo, pesos de modelos ni un instalador.
+Esta muestra presenta **Sala IA** y resume el avance del resto de NÉMESIS. Es documentación de resultados y límites: no contiene el software operativo, pesos de modelos ni un instalador.
 
 [Conocer la Sala](docs/sala-ia.md) · [Ver avances y pendientes](docs/avance-y-pendientes.md) · [Consultar evidencia y alcance](docs/evidencia-y-alcance.md)
 
@@ -38,6 +38,12 @@ En el recorrido numérico documentado, la Sala recibe el encargo, el Orquestador
 
 [Seguir el ejemplo de SUMAR 23 + 16 = 39](docs/conexiones-sala-orquestador-oraculo.md). La conversación libre conserva su ruta propia.
 
+## ORÁCULO y el motor de cálculo
+
+La aceptación estática y el cálculo tienen recibos distintos. Un caso real de SUMAR llegó a 39; un control aislado rechazó una resta presentada como suma. Los dos ensayos conservan sus alcances y fechas.
+
+[Ver qué verifica ORÁCULO y qué calcula el motor](docs/oraculo-y-motor-de-calculo.md).
+
 ## Avances y pendientes
 
 | Área | Avance demostrado | Qué queda por desarrollar o comprobar |
@@ -67,4 +73,4 @@ Programación general, análisis de imágenes, búsqueda documental y memoria av
 
 © 2026 **Jean y equipo NÉMESIS**. La documentación original se comparte bajo **[CC BY 4.0](LICENSE.txt)**: puedes reutilizarla y adaptarla, incluso comercialmente, conservando la atribución, enlazando la licencia e indicando los cambios. [Alcance y elementos de terceros](AVISOS.md). Los modelos y sus pesos conservan sus licencias propias.
 
-*Corte documental:8 de noviembre de2026. Primera muestra de Sala IA y panorama de NÉMESIS; las aceptaciones se limitan a los alcances citados.*
+*Corte documental:8 de noviembre de2026. Sala IA y recorridos documentados de NÉMESIS; las aceptaciones se limitan a los alcances citados.*

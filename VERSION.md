@@ -1,11 +1,11 @@
-# Segunda entrega documental de NÉMESIS
+# Tercera entrega documental de NÉMESIS
 
-Revisión R003 de conexiones y licencia. Corte documental: 8 de noviembre de 2026, America/Santiago.
+Revisión R002 de ORÁCULO y motor de cálculo. Corte documental: 8 de noviembre de 2026, America/Santiago.
 
-Amplía la primera muestra de Sala IA con una explicación del recorrido numérico hacia el Orquestador, el adaptador y ORÁCULO, separando cálculo y memoria. El ejemplo corresponde al 6 de noviembre de 2026; no es una ejecución nueva.
+Añade una explicación del contrato SUMAR, la aceptación estática y el cálculo real, junto a un rechazo histórico aislado y sus capas simuladas. Las pruebas corresponden al 5 y 6 de noviembre de 2026; no son ejecuciones nuevas.
 
-La primera muestra se publicó en el commit fe1bae8f1726034d085996abcf4abecba6b0da40. Desde esta revisión, el material documental original se ofrece bajo CC BY 4.0, con atribución a Jean y equipo NÉMESIS. No se incorporan software operativo o pesos de modelos ni se modifican las licencias de terceros.
+La versión pública anterior es d73f93d1f60cf1bda6f48aa89e6e896175b54e23. Esta entrega mantiene CC BY 4.0 y la atribución a Jean y equipo NÉMESIS para el material documental original. No incorpora software operativo o pesos de modelos.
 
-MANIFEST.sha256 comprende sus otros trece archivos; es un control de integridad, no una firma o certificación de verdad.
+MANIFEST.sha256 comprende sus otros catorce archivos; es un control de integridad, no una firma o certificación de verdad.
 
-[Presentación](README.md) · [Conexión documentada](docs/conexiones-sala-orquestador-oraculo.md) · [Licencia](LICENSE.txt) · [Avisos](AVISOS.md).
+[Presentación](README.md) · [ORÁCULO y motor](docs/oraculo-y-motor-de-calculo.md) · [Licencia](LICENSE.txt) · [Avisos](AVISOS.md).
