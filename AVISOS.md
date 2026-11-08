@@ -2,13 +2,19 @@
 
 [Volver a NÉMESIS](README.md).
 
-## Este material
+## Licencia y atribución
 
-Esta primera muestra es documental. No contiene el código operativo de NÉMESIS, instaladores, pesos de modelos ni bibliotecas de terceros. No se ha asignado una licencia abierta al material de esta carpeta; no debe presentarse como una distribución de código abierto por el solo hecho de estar visible.
+© 2026 **Jean y equipo NÉMESIS**. El material documental original de este repositorio —textos, diagramas y los elementos propios de la captura de interfaz— se ofrece bajo **[Creative Commons Atribución 4.0 Internacional (CC BY 4.0)](LICENSE.txt)**. [Código legal oficial](https://creativecommons.org/licenses/by/4.0/legalcode.es).
 
-Los textos y diagramas se prepararon para el proyecto y la captura procede de su entorno de pruebas. Las referencias y nombres de modelos identifican herramientas usadas; no implican patrocinio ni trasladan sus licencias a NÉMESIS. No se afirma una certificación jurídica de titularidad.
+Puedes compartir y adaptar ese material, incluso comercialmente, respetando los términos de la licencia: conserva el crédito a **Jean y equipo NÉMESIS**, el aviso de licencia y el enlace a la fuente en la medida razonablemente posible; indica si realizaste cambios. La atribución no debe sugerir que el equipo respalda tu uso.
 
-GitHub explica que hacer público un repositorio permite verlo y bifurcarlo mediante su servicio, aun sin licencia abierta elegida. Visible no significa técnicamente imposible de copiar. [Guía oficial de licencias](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) · [Términos de GitHub, D.5](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#5-license-grant-to-other-users).
+Ejemplo de atribución, ajustable razonablemente al medio:
+
+> NÉMESIS, de Jean y equipo NÉMESIS. CC BY 4.0. Fuente: https://github.com/jesco009-afk/nemesis-sala-ia. Cambios: indicar las modificaciones, si las hay.
+
+Esta entrega contiene documentación, no el código operativo de NÉMESIS, instaladores, pesos de modelos ni bibliotecas de terceros. Las marcas, nombres, logotipos y demás elementos de terceros que puedan aparecer conservan sus derechos y condiciones propios; no se conceden aquí derechos que correspondan a sus titulares. Las referencias a modelos no implican patrocinio ni trasladan sus licencias a NÉMESIS.
+
+La licencia permite reutilizar el material documental cubierto, pero no concede permisos de escritura sobre este repositorio. Se mantiene la separación entre documentación, software y modelos. No se afirma una certificación jurídica de titularidad.
 
 ## Modelos citados
 
@@ -27,4 +33,4 @@ Estas referencias no sustituyen revisar el artefacto y sus términos antes de ut
 
 Esta muestra no concede permisos de escritura a visitantes ni incorpora automáticamente aportaciones al proyecto. Una sugerencia externa debe revisarse antes de aceptarla. El paquete no contiene workflows o automatizaciones de ejecución.
 
-Las decisiones sobre licencia abierta, código, colaboración e instalación se tratarán por separado del alcance de esta primera muestra.
+Las condiciones de una futura distribución de software o modelos, la colaboración y la instalación se revisarán por separado. Esta licencia documental no amplía los alcances técnicos probados.

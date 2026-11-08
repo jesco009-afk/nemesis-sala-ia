@@ -1,9 +1,11 @@
-# Primera muestra documental · R003
+# Segunda entrega documental de NÉMESIS
 
-Proyecto: **NÉMESIS**. Enfoque inicial: **Sala IA**. Corte de información: **8 de noviembre de2026, America/Santiago**.
+Revisión R003 de conexiones y licencia. Corte documental: 8 de noviembre de 2026, America/Santiago.
 
-R003 incorpora el resumen de avances y pendientes que el usuario ordenó añadir. Conserva la portada/enfoque doméstico y las explicaciones de modalidades incorporadas en R002. Privacidad, derechos/licencia, destino y publicación siguen en revisión; no hay autorización de publicar.
+Amplía la primera muestra de Sala IA con una explicación del recorrido numérico hacia el Orquestador, el adaptador y ORÁCULO, separando cálculo y memoria. El ejemplo corresponde al 6 de noviembre de 2026; no es una ejecución nueva.
 
-Esta carpeta es una selección documental, no el producto ejecutable ni un instalador. Las revisiones editoriales no modifican aceptaciones técnicas. MANIFEST.sha256 compara bytes de sus otros once archivos; no se incluye a sí mismo y no es firma ni certificación de verdad.
+La primera muestra se publicó en el commit fe1bae8f1726034d085996abcf4abecba6b0da40. Desde esta revisión, el material documental original se ofrece bajo CC BY 4.0, con atribución a Jean y equipo NÉMESIS. No se incorporan software operativo o pesos de modelos ni se modifican las licencias de terceros.
 
-[Presentación](README.md) · [Evidencia y alcance](docs/evidencia-y-alcance.md) · [Derechos y referencias](AVISOS.md).
+MANIFEST.sha256 comprende sus otros trece archivos; es un control de integridad, no una firma o certificación de verdad.
+
+[Presentación](README.md) · [Conexión documentada](docs/conexiones-sala-orquestador-oraculo.md) · [Licencia](LICENSE.txt) · [Avisos](AVISOS.md).

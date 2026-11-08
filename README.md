@@ -32,6 +32,12 @@ La **Sala** es la puerta de entrada. El **Orquestador** coordina recorridos defi
 
 La conversación libre y el cálculo son rutas distintas. Una respuesta del chat no queda verificada por ORÁCULO por aparecer en la Sala. En el ejemplo numérico23+16=39 se documentaron por separado la aceptación estática, el cálculo y el guardado. [Ver recorridos y memorias](docs/recorridos-y-memoria.md).
 
+## Cómo llega una tarea a ORÁCULO
+
+En el recorrido numérico documentado, la Sala recibe el encargo, el Orquestador coordina a Qwen y Gemma y el adaptador enlaza la propuesta con sus reglas. ORÁCULO la revisa antes de que el motor calcule.
+
+[Seguir el ejemplo de SUMAR 23 + 16 = 39](docs/conexiones-sala-orquestador-oraculo.md). La conversación libre conserva su ruta propia.
+
 ## Avances y pendientes
 
 | Área | Avance demostrado | Qué queda por desarrollar o comprobar |
@@ -56,5 +62,9 @@ Ese perfil describe el equipo observado. No se han establecido mínimos generale
 Programación general, análisis de imágenes, búsqueda documental y memoria avanzada conservan trabajo propio. También quedan la preparación redistribuible del software y las pruebas de instalación en otros equipos. Esta muestra no ofrece «descargar y ejecutar» ni ejecuta aportaciones externas.
 
 [Alcance de los resultados](docs/evidencia-y-alcance.md) · [Derechos, modelos y colaboración](AVISOS.md) · [Versión documental](VERSION.md) · [Huellas de estos archivos](MANIFEST.sha256)
+
+## Autoría y licencia
+
+© 2026 **Jean y equipo NÉMESIS**. La documentación original se comparte bajo **[CC BY 4.0](LICENSE.txt)**: puedes reutilizarla y adaptarla, incluso comercialmente, conservando la atribución, enlazando la licencia e indicando los cambios. [Alcance y elementos de terceros](AVISOS.md). Los modelos y sus pesos conservan sus licencias propias.
 
 *Corte documental:8 de noviembre de2026. Primera muestra de Sala IA y panorama de NÉMESIS; las aceptaciones se limitan a los alcances citados.*
