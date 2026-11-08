@@ -1,0 +1,60 @@
+![NÉMESIS · IA en tu equipo de casa](assets/portada.svg)
+
+Un proyecto para conversar con modelos ejecutados en el PC y conectar tareas con recorridos de verificación, cálculo y memoria. **Pensado para usuarios de casa, construido paso a paso y todavía en desarrollo.**
+
+Esta primera muestra presenta **Sala IA** y resume el avance del resto de NÉMESIS. Es documentación de resultados y límites: no contiene el software operativo, pesos de modelos ni un instalador.
+
+[Conocer la Sala](docs/sala-ia.md) · [Ver avances y pendientes](docs/avance-y-pendientes.md) · [Consultar evidencia y alcance](docs/evidencia-y-alcance.md)
+
+## Una ventana para conversar
+
+![Interfaz real de Sala IA R002](assets/sala-ia-r002.jpg)
+
+*Captura real de Sala R002 con interfaz simplificada. Muestra controles y proyectos genéricos de prueba; no representa una conversación nueva ni una respuesta del modelo.*
+
+| Modalidad | Así funciona |
+| --- | --- |
+| **Conversación individual** | Eliges un modelo, escribes tu pregunta y recibes su respuesta. Puedes continuar en el mismo chat. |
+| **Conversación doble** | Gemma 4 E2B prepara la respuesta, Granite 3.3 8B la revisa y Gemma puede ajustarla. Cuando el recorrido se completa, recibes una sola respuesta. |
+| **Memoria del proyecto** | Tú eliges un mensaje tuyo para conservar. La Sala lo recupera automáticamente en otra conversación del mismo proyecto y muestra su origen. |
+
+Los modelos pueden equivocarse. En el ensayo práctico del modo doble se completó el recorrido, pero la respuesta no hizo la comparación solicitada. Ese límite permanece registrado; coordinar dos modelos no garantiza una respuesta correcta.
+
+La memoria del proyecto conserva **un antecedente activo, de hasta 500 caracteres**. Tú eliges qué guardar; no se guarda automáticamente cada mensaje. El recuerdo está en disco y la lista de chats permanece en la memoria de la ventana.
+
+**Tú eliges qué recordar. La Sala lo recupera para tu proyecto.**
+
+## Un proyecto, cuatro componentes
+
+![Conversación y recorrido numérico de NÉMESIS](assets/mapa-nemesis.svg)
+
+La **Sala** es la puerta de entrada. El **Orquestador** coordina recorridos definidos. **ORÁCULO y el motor** revisan y calculan dentro del alcance aritmético probado. La **memoria** conserva antecedentes o resultados según la ruta.
+
+La conversación libre y el cálculo son rutas distintas. Una respuesta del chat no queda verificada por ORÁCULO por aparecer en la Sala. En el ejemplo numérico23+16=39 se documentaron por separado la aceptación estática, el cálculo y el guardado. [Ver recorridos y memorias](docs/recorridos-y-memoria.md).
+
+## Avances y pendientes
+
+| Área | Avance demostrado | Qué queda por desarrollar o comprobar |
+| --- | --- | --- |
+| **Sala IA** | Conversación individual, coordinación doble, interfaz y memoria por proyecto. | Historial completo persistente y capacidades nuevas. |
+| **Orquestador** | Coordinación del recorrido probado, control de contexto y muestra de repetibilidad. | Más rutas, cargas y concurrencia. |
+| **ORÁCULO y motor** | Cuatro operaciones aritméticas en casos concretos supervisados. | Otros programas y dominios requieren comprobaciones propias. |
+| **Memorias** | Guardado y recuperación según cada recorrido. | Búsqueda semántica y memoria avanzada. |
+| **Equipo doméstico** | Pruebas documentadas y GPU con modelos concretos. | Instalación reproducible en otros equipos y mediciones comparables. |
+| **Programación y otros usos** | Pruebas iniciales de modelos. | Programación general, imágenes y búsqueda documental. |
+
+Los límites conocidos —incluidos los errores de los modelos— siguen visibles junto a estos avances. **Demostrado en una muestra no significa terminado para todos los casos.**
+
+## Para un equipo de casa
+
+La evidencia incluye una GTX1050Ti de4096MiB y un log de RAM total31,9GiB. El i7-8700 es una descripción del usuario, no una identificación independiente realizada para esta muestra.
+
+Ese perfil describe el equipo observado. No se han establecido mínimos generales de RAM/VRAM, una garantía de velocidad o una instalación reproducible para cualquier PC. Quedan rutas y dependencias de la instalación original por preparar para distribución. [Ver equipo y condiciones](docs/equipo-domestico.md).
+
+## Lo que sigue abierto
+
+Programación general, análisis de imágenes, búsqueda documental y memoria avanzada conservan trabajo propio. También quedan la preparación redistribuible del software y las pruebas de instalación en otros equipos. Esta muestra no ofrece «descargar y ejecutar» ni ejecuta aportaciones externas.
+
+[Alcance de los resultados](docs/evidencia-y-alcance.md) · [Derechos, modelos y colaboración](AVISOS.md) · [Versión documental](VERSION.md) · [Huellas de estos archivos](MANIFEST.sha256)
+
+*Corte documental:8 de noviembre de2026. Primera muestra de Sala IA y panorama de NÉMESIS; las aceptaciones se limitan a los alcances citados.*
