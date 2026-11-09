@@ -65,9 +65,9 @@ Los límites conocidos —incluidos los errores de los modelos— siguen visible
 
 ## Para un equipo de casa
 
-La evidencia incluye una GTX1050Ti de4096MiB y un log de RAM total31,9GiB. El i7-8700 es una descripción del usuario, no una identificación independiente realizada para esta muestra.
+Las pruebas de referencia se hicieron en Windows con 32 GB de RAM declarados y una GTX 1050 Ti de 4 GB. La ficha detalla qué modelos usaron la tarjeta, qué piezas necesita cada recorrido y qué falta comprobar para instalar en otro PC. Los mínimos generales de hardware siguen pendientes.
 
-Ese perfil describe el equipo observado. No se han establecido mínimos generales de RAM/VRAM, una garantía de velocidad o una instalación reproducible para cualquier PC. Quedan rutas y dependencias de la instalación original por preparar para distribución. [Ver equipo y condiciones](docs/equipo-domestico.md).
+[Ver requisitos y equipo de referencia](docs/equipo-domestico.md).
 
 ## Lo que sigue abierto
 

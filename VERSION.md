@@ -1,11 +1,11 @@
-# Cuarta entrega documental de NÉMESIS
+# Quinta entrega documental de NÉMESIS
 
-Revisión R002 de memorias conversacional y numérica. Corte documental: 8 de noviembre de 2026, America/Santiago.
+Requisitos para equipos domésticos. Corte documental del 8 de noviembre de 2026.
 
-Añade una comparación de los dos recorridos de memoria, el guardado elegido del mensaje original y el guardado automático del resultado numérico probado. Las evidencias corresponden al 6 y 7 de noviembre de 2026; no son nuevas consultas, cálculos o cambios de los almacenes.
+Amplía la ficha del equipo observado, los ensayos de GPU y CPU, las piezas de cada recorrido y las comprobaciones pendientes para instalar en otro PC.
 
-La versión pública anterior es b6073f2910197da924f7d01037178517a70058cf. Esta entrega mantiene CC BY 4.0 y la atribución a Jean y equipo NÉMESIS para el material documental original.
+La entrega parte de la cuarta publicación, commit fcefc05581d23a3bcd1d6a51b5cb0f7c61b7d142. La documentación original conserva CC BY 4.0 y la autoría de Jean y equipo NÉMESIS.
 
-MANIFEST.sha256 comprende sus otros quince archivos; es un control de integridad, no una firma o certificación de verdad.
+MANIFEST.sha256 registra las huellas de los otros quince archivos de esta entrega.
 
-[Presentación](README.md) · [Dos memorias](docs/memorias-conversacional-y-numerica.md) · [Licencia](LICENSE.txt) · [Avisos](AVISOS.md).
+[Presentación](README.md) · [Equipo doméstico](docs/equipo-domestico.md) · [Licencia](LICENSE.txt) · [Avisos](AVISOS.md).
