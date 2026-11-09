@@ -69,6 +69,12 @@ Las pruebas de referencia se hicieron en Windows con 32 GB de RAM declarados y u
 
 [Ver requisitos y equipo de referencia](docs/equipo-domestico.md).
 
+## Encargo para una IA instaladora
+
+El borrador describe cómo instalar las dependencias de Sala IA en otro PC Windows, verificar una respuesta en modo individual y dejar la Sala corriendo. El paquete instalable y su validación en otro equipo están pendientes.
+
+[Leer el encargo para la IA instaladora](docs/instalacion.md).
+
 ## Lo que sigue abierto
 
 Programación general, análisis de imágenes, búsqueda documental y memoria avanzada conservan trabajo propio. También quedan la preparación redistribuible del software y las pruebas de instalación en otros equipos. Esta muestra no ofrece «descargar y ejecutar» ni ejecuta aportaciones externas.

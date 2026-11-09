@@ -1,11 +1,11 @@
-# Quinta entrega documental de NÉMESIS
+# Sexta entrega documental de NÉMESIS
 
-Requisitos para equipos domésticos. Corte documental del 8 de noviembre de 2026.
+Borrador del encargo para la IA instaladora. Corte documental del 8 de noviembre de 2026.
 
-Amplía la ficha del equipo observado, los ensayos de GPU y CPU, las piezas de cada recorrido y las comprobaciones pendientes para instalar en otro PC.
+La guía se dirige a una IA con acceso a un PC Windows de destino. Describe cómo preparar las dependencias, comprobar una respuesta en Sala IA y dejar la Sala corriendo. El paquete de software y el procedimiento de arranque para otro PC quedan pendientes de entrega y validación técnica.
 
-La entrega parte de la cuarta publicación, commit fcefc05581d23a3bcd1d6a51b5cb0f7c61b7d142. La documentación original conserva CC BY 4.0 y la autoría de Jean y equipo NÉMESIS.
+La base pública es el commit 2e1859a455114839794df155d3e572e25fb8d6c3. La documentación original conserva CC BY 4.0 y la autoría de Jean y equipo NÉMESIS.
 
-MANIFEST.sha256 registra las huellas de los otros quince archivos de esta entrega.
+MANIFEST.sha256 registra las huellas de los otros dieciséis archivos de esta entrega.
 
-[Presentación](README.md) · [Equipo doméstico](docs/equipo-domestico.md) · [Licencia](LICENSE.txt) · [Avisos](AVISOS.md).
+[Presentación](README.md) · [Encargo para la IA instaladora](docs/instalacion.md) · [Licencia](LICENSE.txt) · [Avisos](AVISOS.md).
