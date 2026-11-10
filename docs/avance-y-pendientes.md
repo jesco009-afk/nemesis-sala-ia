@@ -1,6 +1,6 @@
 # Avance del proyecto y pendientes
 
-[Volver a NÉMESIS](../README.md). Corte:8 de noviembre de2026.
+[Volver a NÉMESIS](../README.md). Corte documental del 10 de noviembre de 2026.
 
 Los avances describen alcances respaldados, no porcentajes globales ni capacidades completas.
 
@@ -11,7 +11,10 @@ Los avances describen alcances respaldados, no porcentajes globales ni capacidad
 | **ORÁCULO y motor** | Cuatro operaciones aritméticas en casos concretos supervisados. | Otros programas y dominios requieren comprobaciones propias. |
 | **Memorias** | Guardado y recuperación según cada recorrido. | Búsqueda semántica y memoria avanzada. |
 | **Equipo doméstico** | Pruebas documentadas y GPU con modelos concretos. | Instalación reproducible en otros equipos y mediciones comparables. |
-| **Programación y otros usos** | Pruebas iniciales de modelos. | Programación general, imágenes y búsqueda documental. |
+| **Programación** | Propuesta individual y propuesta con revisión. Una tarea supervisada pasó siete casos en cada modo. | Validación externa de tareas libres y pruebas de otros cambios. |
+| **Imágenes y capturas** | Análisis individual y doble comprobados con una imagen adjunta. | Evaluar la precisión con más imágenes y preguntas. |
+| **Documentos** | Búsqueda individual y doble en un corpus piloto. Tres de cuatro casos cumplieron el resultado esperado. | Ampliar el corpus y comprobar la recuperación de evidencia omitida. |
+| **Razonamiento** | Aceptación supervisada de una prueba con Phi-4 14B. Modo doble disponible en la configuración local. | Validación práctica del modo doble y más casos. |
 
 ## Límites que acompañan lo demostrado
 
@@ -27,4 +30,4 @@ La preparación documental reunió avances, ejemplos de Sala, conexiones, verifi
 
 No incluye el repositorio interno de trabajo, los expedientes completos o un instalador. Una publicación documental no cambia la aceptación técnica del producto ni cierra sus pendientes de distribución.
 
-[Ver evidencia y alcance](evidencia-y-alcance.md) · [Ver condiciones del equipo](equipo-domestico.md).
+[Modelos por modalidad](modalidades-y-modelos.md) · [Ver evidencia y alcance](evidencia-y-alcance.md) · [Ver condiciones del equipo](equipo-domestico.md).
