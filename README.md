@@ -4,7 +4,7 @@ Un proyecto para conversar con modelos ejecutados en el PC y conectar tareas con
 
 Esta muestra presenta **Sala IA** y resume el avance del resto de NÉMESIS. Es documentación de resultados y límites: no contiene el software operativo, pesos de modelos ni un instalador.
 
-[Conocer la Sala](docs/sala-ia.md) · [Ver avances y pendientes](docs/avance-y-pendientes.md) · [Consultar evidencia y alcance](docs/evidencia-y-alcance.md) · [Plan de paquetes para Windows](#plan-de-paquetes-para-windows)
+[Conocer la Sala](docs/sala-ia.md) · [Modalidades y modelos](#modalidades-y-modelos) · [Ver avances y pendientes](docs/avance-y-pendientes.md) · [Consultar evidencia y alcance](docs/evidencia-y-alcance.md) · [Plan de paquetes para Windows](#plan-de-paquetes-para-windows)
 
 ## Una ventana para conversar
 
@@ -23,6 +23,24 @@ Los modelos pueden equivocarse. En el ensayo práctico del modo doble se complet
 La memoria del proyecto conserva **un antecedente activo, de hasta 500 caracteres**. Tú eliges qué guardar; no se guarda automáticamente cada mensaje. El recuerdo está en disco y la lista de chats permanece en la memoria de la ventana.
 
 **Tú eliges qué recordar. La Sala lo recupera para tu proyecto.**
+
+## Modalidades y modelos
+
+La configuración local R016 ofrece cinco áreas con modelos propios. Las pruebas se documentan con la versión y el alcance de cada caso.
+
+| Área | Individual | Doble |
+| --- | --- | --- |
+| **Conversación** | Se elige uno entre Gemma 4 E2B, Granite 3.3 8B, Qwen 3.5 4B y Gemma 3 4B. | Gemma 4 E2B redacta y Granite 3.3 8B revisa. Gemma ajusta la respuesta si la revisión pide cambios. |
+| **Programación** | Qwen 2.5 Coder 3B propone código. | Qwen 2.5 Coder 3B propone y CodeGemma 7B revisa. |
+| **Imágenes y capturas** | Qwen 3 VL 4B analiza la imagen adjunta. | Qwen 3 VL 4B analiza, Qwen 3 VL 2B revisa y Qwen 3 VL 4B responde. |
+| **Documentos** | EmbeddingGemma 300M Q4 busca fragmentos en el corpus piloto. | EmbeddingGemma 300M Q4 y Q8 aportan resultados a la búsqueda. |
+| **Razonamiento** | Phi-4 14B analiza el problema. | Phi-4 14B analiza y Phi-4 Mini 3.8B aporta una segunda opinión sobre la ficha inicial. |
+
+![Sala IA R011 en Imágenes y capturas, modo Doble](assets/sala-ia-r011-imagenes-doble.jpg)
+
+*Captura de Sala IA R011 antes de enviar una consulta. Se ven el área Imágenes y capturas, el modo Doble y los roles de Qwen 3 VL 4B y 2B.*
+
+[Ver la ficha de modalidades y sus pruebas](docs/modalidades-y-modelos.md).
 
 ## Un proyecto, cuatro componentes
 
@@ -59,7 +77,10 @@ En conversación tú eliges qué recordar y la Sala lo recupera para el proyecto
 | **ORÁCULO y motor** | Cuatro operaciones aritméticas en casos concretos supervisados. | Otros programas y dominios requieren comprobaciones propias. |
 | **Memorias** | Guardado y recuperación según cada recorrido. | Búsqueda semántica y memoria avanzada. |
 | **Equipo doméstico** | Pruebas documentadas y GPU con modelos concretos. | Instalación reproducible en otros equipos y mediciones comparables. |
-| **Programación y otros usos** | Pruebas iniciales de modelos. | Programación general, imágenes y búsqueda documental. |
+| **Programación** | Propuesta individual y propuesta con revisión. Una tarea supervisada pasó siete casos en cada modo. | Validación externa de tareas libres y pruebas de otros cambios. |
+| **Imágenes y capturas** | Análisis individual y doble comprobados con una imagen adjunta. | Evaluar la precisión con más imágenes y preguntas. |
+| **Documentos** | Búsqueda individual y doble en un corpus piloto. Tres de cuatro casos cumplieron el resultado esperado. | Ampliar el corpus y comprobar la recuperación de evidencia omitida. |
+| **Razonamiento** | Aceptación supervisada de una prueba con Phi-4 14B. Modo doble disponible en la configuración local. | Validación práctica del modo doble y más casos. |
 
 Los límites conocidos —incluidos los errores de los modelos— siguen visibles junto a estos avances. **Demostrado en una muestra no significa terminado para todos los casos.**
 
@@ -76,7 +97,7 @@ La primera descarga prevista es **Sala IA para Windows en modo individual**. La 
 | Entrega propuesta | Alcance |
 | --- | --- |
 | **Base de Sala IA** | Aplicación, instrucciones para sus dependencias y arranque, y una primera conversación con un modelo. |
-| **Ampliaciones de Sala** | Modo doble y memorias. Se incorporarán según sus dependencias y las pruebas de instalación. |
+| **Ampliaciones del paquete** | Modo doble y memorias de la Sala local. Su distribución dependerá de las pruebas de instalación. |
 | **Recorrido numérico** | Orquestador, ORÁCULO y motor de cálculo. Es una entrega posterior que requiere su propia prueba en el equipo de destino. |
 
 El uso de GPU se plantea como una opción de configuración según el equipo y el modelo. La documentación disponible recoge el equipo de referencia y los pasos que la IA instaladora podrá seguir cuando reciba el paquete. [Equipo de referencia](docs/equipo-domestico.md) · [Encargo para la IA instaladora](docs/instalacion.md).
@@ -89,7 +110,7 @@ El borrador describe cómo instalar las dependencias de Sala IA en otro PC Windo
 
 ## Lo que sigue abierto
 
-Programación general, análisis de imágenes, búsqueda documental y memoria avanzada conservan trabajo propio. También quedan la preparación redistribuible del software y las pruebas de instalación en otros equipos. Esta muestra no ofrece «descargar y ejecutar» ni ejecuta aportaciones externas.
+Queda ampliar las pruebas de programación, análisis de imágenes, documentos y razonamiento, así como desarrollar memoria avanzada. El paquete para Windows y las pruebas de instalación en otro equipo siguen pendientes.
 
 [Alcance de los resultados](docs/evidencia-y-alcance.md) · [Derechos, modelos y colaboración](AVISOS.md) · [Versión documental](VERSION.md) · [Huellas de estos archivos](MANIFEST.sha256)
 
@@ -97,4 +118,4 @@ Programación general, análisis de imágenes, búsqueda documental y memoria av
 
 © 2026 **Jean y equipo NÉMESIS**. La documentación original se comparte bajo **[CC BY 4.0](LICENSE.txt)**: puedes reutilizarla y adaptarla, incluso comercialmente, conservando la atribución, enlazando la licencia e indicando los cambios. [Alcance y elementos de terceros](AVISOS.md). Los modelos y sus pesos conservan sus licencias propias.
 
-*Corte documental del 9 de noviembre de 2026. Sala IA y recorridos documentados de NÉMESIS; las aceptaciones se limitan a los alcances citados.*
+*Corte documental del 10 de noviembre de 2026. Sala IA y recorridos documentados de NÉMESIS; las aceptaciones se limitan a los alcances citados.*
