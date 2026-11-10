@@ -4,7 +4,7 @@ Un proyecto para conversar con modelos ejecutados en el PC y conectar tareas con
 
 Esta muestra presenta **Sala IA** y resume el avance del resto de NÉMESIS. Es documentación de resultados y límites: no contiene el software operativo, pesos de modelos ni un instalador.
 
-[Conocer la Sala](docs/sala-ia.md) · [Ver avances y pendientes](docs/avance-y-pendientes.md) · [Consultar evidencia y alcance](docs/evidencia-y-alcance.md)
+[Conocer la Sala](docs/sala-ia.md) · [Ver avances y pendientes](docs/avance-y-pendientes.md) · [Consultar evidencia y alcance](docs/evidencia-y-alcance.md) · [Plan de paquetes para Windows](#plan-de-paquetes-para-windows)
 
 ## Una ventana para conversar
 
@@ -69,6 +69,18 @@ Las pruebas de referencia se hicieron en Windows con 32 GB de RAM declarados y u
 
 [Ver requisitos y equipo de referencia](docs/equipo-domestico.md).
 
+## Plan de paquetes para Windows
+
+La primera descarga prevista es **Sala IA para Windows en modo individual**. La meta es que, en un Windows limpio, una persona pueda instalar la base, abrir la Sala en el navegador y obtener una respuesta con un modelo. El paquete base está pendiente de preparación y validación.
+
+| Entrega propuesta | Alcance |
+| --- | --- |
+| **Base de Sala IA** | Aplicación, instrucciones para sus dependencias y arranque, y una primera conversación con un modelo. |
+| **Ampliaciones de Sala** | Modo doble y memorias. Se incorporarán según sus dependencias y las pruebas de instalación. |
+| **Recorrido numérico** | Orquestador, ORÁCULO y motor de cálculo. Es una entrega posterior que requiere su propia prueba en el equipo de destino. |
+
+El uso de GPU se plantea como una opción de configuración según el equipo y el modelo. La documentación disponible recoge el equipo de referencia y los pasos que la IA instaladora podrá seguir cuando reciba el paquete. [Equipo de referencia](docs/equipo-domestico.md) · [Encargo para la IA instaladora](docs/instalacion.md).
+
 ## Encargo para una IA instaladora
 
 El borrador describe cómo instalar las dependencias de Sala IA en otro PC Windows, verificar una respuesta en modo individual y dejar la Sala corriendo. El paquete instalable y su validación en otro equipo están pendientes.
@@ -85,4 +97,4 @@ Programación general, análisis de imágenes, búsqueda documental y memoria av
 
 © 2026 **Jean y equipo NÉMESIS**. La documentación original se comparte bajo **[CC BY 4.0](LICENSE.txt)**: puedes reutilizarla y adaptarla, incluso comercialmente, conservando la atribución, enlazando la licencia e indicando los cambios. [Alcance y elementos de terceros](AVISOS.md). Los modelos y sus pesos conservan sus licencias propias.
 
-*Corte documental:8 de noviembre de2026. Sala IA y recorridos documentados de NÉMESIS; las aceptaciones se limitan a los alcances citados.*
+*Corte documental del 9 de noviembre de 2026. Sala IA y recorridos documentados de NÉMESIS; las aceptaciones se limitan a los alcances citados.*

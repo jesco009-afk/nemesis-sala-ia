@@ -1,11 +1,11 @@
 # Sexta entrega documental de NÉMESIS
 
-Borrador del encargo para la IA instaladora. Corte documental del 8 de noviembre de 2026.
+Actualización del 9 de noviembre de 2026. La portada recoge el plan para entregar Sala IA en un paquete base para Windows y añadir capacidades conforme se validen.
 
-La guía se dirige a una IA con acceso a un PC Windows de destino. Describe cómo preparar las dependencias, comprobar una respuesta en Sala IA y dejar la Sala corriendo. El paquete de software y el procedimiento de arranque para otro PC quedan pendientes de entrega y validación técnica.
+El encargo para la IA instaladora sigue disponible como borrador. El paquete de software y su validación en un equipo de destino siguen pendientes.
 
-La base pública es el commit 2e1859a455114839794df155d3e572e25fb8d6c3. La documentación original conserva CC BY 4.0 y la autoría de Jean y equipo NÉMESIS.
+La revisión parte del commit c1a9052dd2a7658740cdeaf277b032f2b152b17d. La documentación original conserva CC BY 4.0 y la autoría de Jean y equipo NÉMESIS.
 
 MANIFEST.sha256 registra las huellas de los otros dieciséis archivos de esta entrega.
 
-[Presentación](README.md) · [Encargo para la IA instaladora](docs/instalacion.md) · [Licencia](LICENSE.txt) · [Avisos](AVISOS.md).
+[Plan de paquetes](README.md#plan-de-paquetes-para-windows) · [Encargo para la IA instaladora](docs/instalacion.md) · [Licencia](LICENSE.txt) · [Avisos](AVISOS.md).
